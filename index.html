@@ -88,7 +88,7 @@
 
 											<div class="inner">
 												<h4>Background Extraction</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<p>Each camera is set at a static position. The median color distributions across all images of a location captures the background of that location. Images taken at daytime and images taken at nighttime have vastly different color distribution, so we categorize images into "daytime" and "nighttime", and each location has a daytime background and a nighttime background. Subtract each image by its corresponding background, emphasize and isolate animal object in the image.</p>
 
 											</div>
 											<br><br>
@@ -158,14 +158,14 @@
 											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Normalization</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<p>Apply z-score normalization to intensities of each color channel of each pixels. Apply after background subtraction.</p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Modeified AlexNet Model</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<p>Modified the Architecture of AlexNet: 5 learnable convolutional layers and 3 fully connected layers (Krizhevsky et al. 2012). The nonlinear activation function used is ReLU. The Input is  image of size 227x227 and the Output is softmaxed probability distribution across 100 animal category classes.</p>
 											</div>
 										</article>
 										
