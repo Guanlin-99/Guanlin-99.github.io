@@ -76,75 +76,21 @@
 									<h3>Methods</h3>
 									<p>For the method part, we mainly worked on three methods as below. The first two methods are more like a preparation of the data set before building the model and the last method is how we build our model.</p>
 									<div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-
-											<div class="inner">
-												<h4>Background Extraction</h4>
-												<p>Each camera is set at a static position. The median color distributions across all images of a location captures the background of that location. Images taken at daytime and images taken at nighttime have vastly different color distribution, so we categorize images into "daytime" and "nighttime", and each location has a daytime background and a nighttime background. Subtract each image by its corresponding background, emphasize and isolate animal object in the image.</p>
-
-											</div>
-											<br><br>
-											<div id="gallery">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-											</div>
-										</article>
+										
 										<article>
 											<a href="#" class="image"><img src="images/bd.jpeg" alt="" /></a>
 
 											<div class="inner">
 												<h4>Background Removal</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<p>Background removal is a process that involves subtracting the background image of a location from the original image, resulting in an image that highlights the animal features in the photo. In the context of a domain adaptation problem, where models are trained on one set of camera trap photos and tested on another set, background removal can be used as a method to reduce variation between camera trap deployments. Since different camera traps can have vastly different backgrounds, removing the background from images ensures that the resulting images contain only animal features that are consistent across different camera traps.</p>
 											</div>
 											<br><br>
 											<div id="gallery">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
-												<img src="images/pic01.jpg">
+												<img src="images/img4454.png">
+												<img src="images/img4454_subtracted.png">
+												<img src="images/img4454_masked.png">
+												<img src="iimg4454_binary.png">
+												
 											</div>
 										</article>
 										<article>
